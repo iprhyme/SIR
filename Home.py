@@ -6,7 +6,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-
+st.session_state.logged_in = False
 with st.sidebar:
     
 
