@@ -13,9 +13,7 @@ st.logo("b019d1f9-fe62-4653-bbc3-6f5093c68a28.jpg")
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
 
-# Predefined valid credentials (you can replace this with a more secure method)
-VALID_USERNAME = "LinaCEO"
-VALID_PASSWORD = "pass123"
+
 
 
 # Login Page
