@@ -20,7 +20,7 @@ VALID_PASSWORD = "pass123"
 
 # Login Page
 if not st.session_state.logged_in:
-    st.title("Login Page")
+    st.title("Login")
 
     with st.form("login_form"):
         username = st.text_input("Username")
