@@ -6,7 +6,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.session_state.logged_in = False
 with st.sidebar:
     
 
@@ -25,7 +24,7 @@ with st.expander("What is SIR?"):
 
 st.image("https://cdn-icons-png.flaticon.com/128/3140/3140341.png")
 
-st.subheader("Kindly fill out our questionnaire below")
+st.subheader("Kindly fill out the questionnaire below")
 st.link_button(help="will move you to the Google form",label="Questionnaire", url="https://docs.google.com/forms/d/e/1FAIpQLScyHj_5FCRN0mukyXG54dOtyVO59ErS-NOBNlGD0MLHlCBtuw/viewform")
 
 
